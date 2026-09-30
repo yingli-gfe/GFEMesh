@@ -1,0 +1,35 @@
+# Build
+/build/
+/out/
+/cmake-build-*/
+*.user
+*.suo
+*.sdf
+.vs/
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+
+# Binaries / artifacts
+*.exe
+*.dll
+*.lib
+*.pdb
+*.obj
+*.exp
+*.ilk
+
+# Editor / OS
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+
+# Local large archives if reintroduced
+third_party/gmsh/gmsh.7z
+
+# Smoke-test outputs (geometry/step may be committed)
+examples/*.out.mesh.txt
+examples/*.run.log
+examples/regression/_out/
+examples/regression/box.bin

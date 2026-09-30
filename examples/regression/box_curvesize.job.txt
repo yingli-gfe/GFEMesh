@@ -1,0 +1,16 @@
+JobFormatVersion=1
+GeomPath=../box.step
+GeomFormat=step
+GenerateDim=3
+GFE.DefaultSize=10
+GFE.Optimize=false
+Mesh.Algorithm=6
+Mesh.ElementOrder=1
+AutoExtrude=true
+
+[Geom2Type]
+4=17
+
+[CurveSize]
+tags=1,2,3,4
+cnt=5

@@ -1,0 +1,5 @@
+JobFormatVersion=99
+GeomPath=../box.step
+GeomFormat=step
+GenerateDim=3
+GFE.DefaultSize=10

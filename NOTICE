@@ -1,0 +1,33 @@
+GFEMesh
+=======
+
+Copyright (c) 2026 广州颖力科技有限公司 (GZYL)
+
+This project's own source code under `src/` (and project documentation,
+build scripts excluding third-party trees) is licensed under the
+GNU Lesser General Public License version 2.1 or later (LGPL-2.1-or-later).
+See the file LICENSE.
+
+Third-party components
+----------------------
+
+- Gmsh (directory `third_party/gmsh/`): GNU General Public License
+  version 2 or later, with the Gmsh linking exception described in
+  `third_party/gmsh/LICENSE.txt` and `licenses/gmsh-LICENSE.txt`.
+  Based on **public Gmsh 4.15.2** (https://gmsh.info /
+  https://gitlab.onelab.info/gmsh/gmsh) with GFE extensions
+  (`gmsh::model::mesh::gfe::{sweep,revolve}`). See
+  `third_party/gmsh/README.GFE.md`.
+
+- OpenCASCADE Technology (OCCT): used as a build/runtime dependency
+  (typically LGPL). Not vendored in this repository by default.
+  See THIRD_PARTY.md.
+
+Combined binary
+---------------
+
+When mesh_gen.exe is linked with the GPL-licensed Gmsh library, the
+distributed combination must satisfy Gmsh's GPL obligations (provide
+corresponding source for this repository revision, including
+`third_party/gmsh/`). Licensing this project's own code under LGPL does
+not allow redistributing that combination as proprietary software.

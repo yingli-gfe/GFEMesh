@@ -1,0 +1,27 @@
+JobFormatVersion=1
+GeomPath=box.step
+GeomFormat=step
+GenerateDim=3
+GFE.DefaultSize=10
+GFE.Optimize=false
+Mesh.Algorithm=6
+Mesh.ElementOrder=1
+
+# Provide a local box.step next to this file for a real run.
+# Explicit sections only — Auto* keys are not interpreted by mesh_gen.
+
+# [CurveSize]
+# tags=1,2,3,4
+# cnt=8
+# density=-1
+
+# [Sweep]
+# source=2,1
+# target=2,2
+# body=3,1
+# dx=0
+# dy=0
+# dz=10
+# layers=5
+# ratio=1
+# recombine=false
